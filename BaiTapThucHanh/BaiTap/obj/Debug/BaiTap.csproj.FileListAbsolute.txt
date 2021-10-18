@@ -1,0 +1,11 @@
+C:\Users\phanv\OneDrive\Máy tính\Winform_Example\BaiTapThucHanh\BaiTap\bin\Debug\BaiTap.exe.config
+C:\Users\phanv\OneDrive\Máy tính\Winform_Example\BaiTapThucHanh\BaiTap\bin\Debug\BaiTap.exe
+C:\Users\phanv\OneDrive\Máy tính\Winform_Example\BaiTapThucHanh\BaiTap\bin\Debug\BaiTap.pdb
+C:\Users\phanv\OneDrive\Máy tính\Winform_Example\BaiTapThucHanh\BaiTap\obj\Debug\BaiTap.csproj.AssemblyReference.cache
+C:\Users\phanv\OneDrive\Máy tính\Winform_Example\BaiTapThucHanh\BaiTap\obj\Debug\BaiTap.frmMain.resources
+C:\Users\phanv\OneDrive\Máy tính\Winform_Example\BaiTapThucHanh\BaiTap\obj\Debug\BaiTap.Properties.Resources.resources
+C:\Users\phanv\OneDrive\Máy tính\Winform_Example\BaiTapThucHanh\BaiTap\obj\Debug\BaiTap.csproj.GenerateResource.cache
+C:\Users\phanv\OneDrive\Máy tính\Winform_Example\BaiTapThucHanh\BaiTap\obj\Debug\BaiTap.csproj.CoreCompileInputs.cache
+C:\Users\phanv\OneDrive\Máy tính\Winform_Example\BaiTapThucHanh\BaiTap\obj\Debug\BaiTap.exe
+C:\Users\phanv\OneDrive\Máy tính\Winform_Example\BaiTapThucHanh\BaiTap\obj\Debug\BaiTap.pdb
+C:\Users\phanv\OneDrive\Máy tính\Winform_Example\BaiTapThucHanh\BaiTap\obj\Debug\BaiTap.Cau2.resources
