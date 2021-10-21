@@ -16,10 +16,10 @@ namespace BaiTap
         {
             InitializeComponent();
         }
-
+        int diem = 0;
         private void btnQuaySo_Click(object sender, EventArgs e)
         {
-            int diem = 0;
+            //int diem = 0;
             Random rd = new Random();
 
             lbSo1.Text = (rd.Next(0, 9)).ToString();
@@ -31,19 +31,33 @@ namespace BaiTap
             int c = int.Parse(lbSo3.Text);
 
             int Tong = (a + b + c);
-            if(Tong>=3 && Tong<=10)
+            if (rd3.Checked == true)
             {
-                diem = diem + 10;
-                lbDiem.Text = diem.ToString();
+                if (Tong >= 3 && Tong <= 10)
+                {
+                    diem = diem + 10;
+                    lbDiem.Text = diem.ToString();
+                }
+                else 
+                {
+                    diem = diem - 10;
+                    lbDiem.Text = diem.ToString();
+                }
+               
             }
-            else
+            if(rd11.Checked == true)
             {
+                if (Tong >= 11 && Tong <= 18)
+                {
+                    diem = diem + 10;
+                    lbDiem.Text = diem.ToString();
+                }
+                else
+                {
+                    diem = diem - 10;
+                    lbDiem.Text = diem.ToString();
+                }
 
-            }
-            if (Tong >= 11 && Tong <= 18)
-            {
-                diem = diem + 10;
-                lbDiem.Text = diem.ToString();
             }
         }
     }

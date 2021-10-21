@@ -76,6 +76,24 @@
     <Compile Include="Cau5.Designer.cs">
       <DependentUpon>Cau5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cau6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cau6.Designer.cs">
+      <DependentUpon>Cau6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cau7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cau7.Designer.cs">
+      <DependentUpon>Cau7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cau8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cau8.Designer.cs">
+      <DependentUpon>Cau8.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Cau1.resx">
@@ -93,6 +111,15 @@
     <EmbeddedResource Include="Cau5.resx">
       <DependentUpon>Cau5.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cau6.resx">
+      <DependentUpon>Cau6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cau7.resx">
+      <DependentUpon>Cau7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cau8.resx">
+      <DependentUpon>Cau8.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -101,6 +128,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -114,6 +142,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anhmuiten.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
