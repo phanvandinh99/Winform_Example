@@ -243,6 +243,7 @@ namespace BaiTap
             this.Controls.Add(this.txtCode);
             this.Controls.Add(this.label1);
             this.Name = "Cau8";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Security Panel";
             this.ResumeLayout(false);
             this.PerformLayout();

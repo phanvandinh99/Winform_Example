@@ -81,28 +81,28 @@ namespace BaiTap
                 // Technocians
                 if (1645 <= a && a <= 1689)
                 {
-                    MessageBox.Show("Successful access Technicians");
+                    MessageBox.Show("Successful access Technicians", "Notify", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     lstLog.Items.Add(DateTime.Now + "   Technicians");
                 }
                 else if (a == 8345)
                 {
-                    MessageBox.Show("Successful access Custodians");
+                    MessageBox.Show("Successful access Custodians", "Notify", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     lstLog.Items.Add(DateTime.Now + "   Custodians");
                 }
                 else if (a == 9998 || a <= 1008 & a >= 1006)
                 {
-                    MessageBox.Show("Successful access Scientist");
+                    MessageBox.Show("Successful access Scientist", "Notify", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     lstLog.Items.Add(DateTime.Now + "   Scientist");
                 }
                 else
                 {
-                    MessageBox.Show("Unlimited Access");
+                    MessageBox.Show("Unlimited Access", "Notify", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     lstLog.Items.Add(DateTime.Now + "   Restricted Access");
                 }
             }
             catch
             {
-                MessageBox.Show("Error");
+                MessageBox.Show("Error", "Notify", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
         }
