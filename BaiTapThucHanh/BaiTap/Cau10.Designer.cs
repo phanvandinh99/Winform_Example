@@ -41,8 +41,8 @@ namespace BaiTap
             this.txtMauSo1 = new System.Windows.Forms.TextBox();
             this.txtTuSo2 = new System.Windows.Forms.TextBox();
             this.txtMauSo2 = new System.Windows.Forms.TextBox();
-            this.txtTuSo3 = new System.Windows.Forms.TextBox();
-            this.txtMauSo3 = new System.Windows.Forms.TextBox();
+            this.txtTuSoKQ = new System.Windows.Forms.TextBox();
+            this.txtMauSoKQ = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -74,6 +74,7 @@ namespace BaiTap
             this.btnCong.TabIndex = 7;
             this.btnCong.Text = "+";
             this.btnCong.UseVisualStyleBackColor = true;
+            this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
             // 
             // btnTru
             // 
@@ -85,6 +86,7 @@ namespace BaiTap
             this.btnTru.TabIndex = 8;
             this.btnTru.Text = "-";
             this.btnTru.UseVisualStyleBackColor = true;
+            this.btnTru.Click += new System.EventHandler(this.btnTru_Click);
             // 
             // btnNhan
             // 
@@ -96,6 +98,7 @@ namespace BaiTap
             this.btnNhan.TabIndex = 9;
             this.btnNhan.Text = "*";
             this.btnNhan.UseVisualStyleBackColor = true;
+            this.btnNhan.Click += new System.EventHandler(this.btnNhan_Click);
             // 
             // btnChia
             // 
@@ -107,6 +110,7 @@ namespace BaiTap
             this.btnChia.TabIndex = 10;
             this.btnChia.Text = "\\";
             this.btnChia.UseVisualStyleBackColor = true;
+            this.btnChia.Click += new System.EventHandler(this.btnChia_Click);
             // 
             // label2
             // 
@@ -177,23 +181,23 @@ namespace BaiTap
             this.txtMauSo2.TabIndex = 16;
             this.txtMauSo2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txtTuSo3
+            // txtTuSoKQ
             // 
-            this.txtTuSo3.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtTuSo3.Location = new System.Drawing.Point(22, 38);
-            this.txtTuSo3.Name = "txtTuSo3";
-            this.txtTuSo3.Size = new System.Drawing.Size(101, 40);
-            this.txtTuSo3.TabIndex = 17;
-            this.txtTuSo3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtTuSoKQ.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txtTuSoKQ.Location = new System.Drawing.Point(22, 38);
+            this.txtTuSoKQ.Name = "txtTuSoKQ";
+            this.txtTuSoKQ.Size = new System.Drawing.Size(101, 40);
+            this.txtTuSoKQ.TabIndex = 17;
+            this.txtTuSoKQ.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txtMauSo3
+            // txtMauSoKQ
             // 
-            this.txtMauSo3.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txtMauSo3.Location = new System.Drawing.Point(22, 124);
-            this.txtMauSo3.Name = "txtMauSo3";
-            this.txtMauSo3.Size = new System.Drawing.Size(101, 40);
-            this.txtMauSo3.TabIndex = 18;
-            this.txtMauSo3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtMauSoKQ.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txtMauSoKQ.Location = new System.Drawing.Point(22, 124);
+            this.txtMauSoKQ.Name = "txtMauSoKQ";
+            this.txtMauSoKQ.Size = new System.Drawing.Size(101, 40);
+            this.txtMauSoKQ.TabIndex = 18;
+            this.txtMauSoKQ.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label5
             // 
@@ -241,9 +245,9 @@ namespace BaiTap
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.txtTuSo3);
+            this.groupBox3.Controls.Add(this.txtTuSoKQ);
             this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Controls.Add(this.txtMauSo3);
+            this.groupBox3.Controls.Add(this.txtMauSoKQ);
             this.groupBox3.Location = new System.Drawing.Point(514, 83);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(156, 184);
@@ -254,7 +258,7 @@ namespace BaiTap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(711, 707);
+            this.ClientSize = new System.Drawing.Size(715, 409);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
@@ -266,8 +270,8 @@ namespace BaiTap
             this.Controls.Add(this.btnCong);
             this.Controls.Add(this.label1);
             this.Name = "Cau10";
-            this.Text = "                                                                  Các phép tính t" +
-    "rên phân số";
+            this.Text = "                                                         Các phép tính trên phân " +
+    "số";
             this.Load += new System.EventHandler(this.Cau10_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -294,8 +298,8 @@ namespace BaiTap
         private System.Windows.Forms.TextBox txtMauSo1;
         private System.Windows.Forms.TextBox txtTuSo2;
         private System.Windows.Forms.TextBox txtMauSo2;
-        private System.Windows.Forms.TextBox txtTuSo3;
-        private System.Windows.Forms.TextBox txtMauSo3;
+        private System.Windows.Forms.TextBox txtTuSoKQ;
+        private System.Windows.Forms.TextBox txtMauSoKQ;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox groupBox1;

@@ -17,3 +17,5 @@ C:\Users\phanv\OneDrive\Máy tính\Winform_Example\BaiTapThucHanh\BaiTap\obj\Deb
 C:\Users\phanv\OneDrive\Máy tính\Winform_Example\BaiTapThucHanh\BaiTap\obj\Debug\BaiTap.Cau8.resources
 C:\Users\phanv\OneDrive\Máy tính\Winform_Example\BaiTapThucHanh\BaiTap\obj\Debug\BaiTap.Cau9.resources
 C:\Users\phanv\OneDrive\Máy tính\Winform_Example\BaiTapThucHanh\BaiTap\obj\Debug\BaiTap.Cau10.resources
+C:\Users\phanv\OneDrive\Máy tính\Winform_Example\BaiTapThucHanh\BaiTap\obj\Debug\BaiTap.Cau11.resources
+C:\Users\phanv\OneDrive\Máy tính\Winform_Example\BaiTapThucHanh\BaiTap\obj\Debug\BaiTap.Main.resources
